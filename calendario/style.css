@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+}
+
+figure img{
+   width: 450px;
+   height: 200px;
+   box-shadow: 0 0 20px;
+   border-radius: 5px;
+   margin-left: 13px;
+}
+
+figure {
+    margin-bottom: 0px;
+}
+
+thead th{
+    text-align: center;
+}
+
+.content-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px;
+    margin-left: 540px;
+}
+
+.content-table thead tr {
+    background-color: rgba(182, 97, 64, 0.9);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid rgb(196, 191, 191);
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: rgb(221, 219, 219);
+}
+
+tr:first-child>td:first-child {
+    color: rgb(207, 204, 204);
+}
+
+table td#niver, td#outromes, td#feriado {
+    background-color: rgba(182, 97, 64, 0.9);
+}
+
+.content-table td{
+    border: solid 2px rgb(112, 66, 66);
+}
+
+#niver:hover {
+    content: url(imagem/bolinho.png);
+    width: 30px;
+}
+
+#feriado:hover {
+    content: url(imagem/crianca.png);
+    width: 30px;
+}
+

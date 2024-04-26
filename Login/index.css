@@ -1,0 +1,48 @@
+body {
+    background-image: url("./imagens/bg.jpg");
+}
+
+#formulario {
+    text-align: center;
+    background-color: blanchedalmond;
+    border-style: outset;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    margin: 150px 500px;
+    padding-bottom: 50px;
+}
+
+#formulario p {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.campo {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 300px;
+}
+
+input[type=password] {
+    height: 50px;
+    width: 300px;
+}
+input[id=Logar] {
+    height: 100px;
+    width: 400px;
+    background-color: orange;
+    border-radius: 20px;
+    float: bottom;
+    font-size: 50px;
+    border: 2px black solid;
+    margin-top: 10px;
+}
+
+a {
+    color: rgb(201, 130, 0);
+    padding-left: 230px;
+}

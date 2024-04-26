@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    align-content: center;
+    max-width: 900px;
+    color: white;
+    background-color: black;
+    font-family: verdana;
+    margin-left: 310px;
+    text-align: center;
+    border-radius: 20px 20px;
+    height: 40px;
+}
+
+header h3 {
+    padding-top: 8px;
+}
+
+section {
+    max-width: 300px;
+    display: inline-block;
+    border: solid 1px rgb(199, 196, 196);
+    border-radius: 20px 20px;
+    margin-right: 10px;
+}
+
+main {
+    padding-top: 20px;
+    text-align: center;
+}
+
+figure {
+    border-bottom: 2px solid black;
+}
+
+figcaption {
+    padding-bottom: 20px;
+}
+
+a {
+    color: black;
+}

@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+}
+
+header{
+    background-color: black;
+    height: 186px;
+}
+
+header section{
+    width: 880px;
+    height: 140px;
+    background-color: #1d1d1d;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header section h1{
+    margin-left: 10px;
+    font-size: 20pt;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 6px;
+}
+
+header section h1 span{
+    color: #5e4238;
+}
+
+header section h2{
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 10pt;
+    color: #b48a7c;
+    font-weight: normal;
+}
+
+nav{
+    width: 880px;
+    height: 45px;
+    margin: auto;
+    padding-right: 9px;
+    background-color: rgb(83, 80, 80);
+    border-top:  1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    height: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #5e4238;
+    margin: 0px 5px;
+    padding: 6px 20px 5px 20px;
+}
+
+.selected, nav a:hover{
+    background-color: #b48a7c;
+}
+
+main{
+    width: 780px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+figure{
+    height: 180px;
+    margin-bottom: 20px;
+    border: 10px solid #ddd;
+}
+
+figure img{
+    width: 100%;
+}
+
+#menu_esq{
+    width: 225px;
+    padding: 5px;
+}
+
+#content{
+    width: 645px;
+    text-align: justify;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#content p{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#content h1{
+    font-weight: normal;
+    margin: 20px 0px;
+}
+
+#menu_esq section, #menu_esq aside{
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#menu_esq h3{
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+#noticias p{
+    text-align: justify;
+    line-height: 20px;
+    margin: 20px 0px;
+
+}
+
+#noticias h4{
+    color: #b48a7c;
+    text-transform: uppercase;
+}
+
+#menu_esq aside{
+    margin-top: 20px;
+}
+
+#menu_esq aside ul li{
+    list-style-type: none;
+    list-style-image: url("../images/bullet.jpg");
+    margin: 0px 0px 0px 15px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+aside a{
+    text-decoration: none;
+    color: #b48a7c;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

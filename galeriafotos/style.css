@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#fig1, #fig2, #fig3, #fig4 {
+    display: inline-block;
+}
+
+#fig5, #fig6, #fig7, #fig8 {
+    display: inline-block;
+}
+
+#fig9, #fig10, #fig11, #fig12 {
+    display: inline-block;
+}
+
+figure {
+    margin: auto;
+    transition: all 1s ease-in-out;
+    backface-visibility: hidden;
+}
+
+figure:hover {
+        box-shadow: 10px 10px 10px #000000;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+figure:target {
+    transform: rotateY(180deg);
+}    
+
